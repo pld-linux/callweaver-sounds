@@ -10,6 +10,7 @@ Source0:	http://devs.callweaver.org/sounds/%{name}.tgz
 URL:		http://www.callweaver.org/
 BuildRequires:	sox
 Requires:	callweaver
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
